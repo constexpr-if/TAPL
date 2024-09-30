@@ -15,7 +15,11 @@
         packages = with pkgs; [
           dune_3
           ocaml
+          opam
         ];
+        shellHooks = ''
+          eval $(opam env)
+        '';
       };
     };
 }
