@@ -1,4 +1,4 @@
-(lang dune 3.16)
+(lang dune 3.15)
 (env
   (dev
     (flags (:standard -warn-error -A))))
